@@ -38,5 +38,4 @@ tools/async-check-opt opt-style command-line driver
 test/Analysis/       CPU-only lit tests
 test/Unsupported/    explicit proof-boundary tests
 benchmarks/          future hardware corroboration corpus and runner
-docs/                semantics, supported IR, and evaluation plan
 ```
