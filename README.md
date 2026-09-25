@@ -9,16 +9,7 @@ set of GPU synchronization mistakes:
 
 The first asynchronous-copy target is the NVGPU
 `nvgpu.device_async_copy` operation family. TMA and `mbarrier` support is a
-planned extension, not part of the initial guarantee. See
-[`docs/spec.md`](docs/spec.md) and [`docs/supported-ir.md`](docs/supported-ir.md)
-for the scope and proof boundaries.
-
-## Current status
-
-The repository is initialized with an `async-check-opt` driver and a registered
-`--check-async-correctness` pass. The pass is intentionally an analysis shell:
-it does not yet claim that input IR is verified. The first implementation
-milestone is the divergent-barrier checker.
+planned extension, not part of the initial guarantee. 
 
 ## Build
 
