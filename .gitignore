@@ -1,0 +1,12 @@
+# Out-of-tree build products.
+/build/
+/build-*/
+
+# Common editor and platform files.
+.cache/
+.clangd/
+.DS_Store
+*~
+
+
+/docs
